@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
+  
+}
+.page {
+  
+  
+  margin: 0px auto 0px;
+  padding-top: 65px;
+  
+  width: 1000px;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  margin-bottom: 55px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul li a {
+  opacity: 0,5;
+}
+
+ul {
+  list-style: none;
+    display: flex;
+    gap: 48px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mulish', sans-serif;
+}
+ul li a {
+  text-decoration: none;
+  color:#1F1534
+}
+
+ul li a:hover { 
+  font-weight: bold;
+  opacity: 1;
+  /* sempre que eu passar o mouse em cima o houver vai aplicar uma propriedade,
+  nesse caso ele vai aplicar um negrito por causa do bold */
+}
+
+h1 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  color: #000000;
+  font-weight: normal;
+  /* aqui aplica no titulo em geral, porem estou colocando uma propriedade somente no spam logo mais a baixo */
+
+}
+
+h1 span {
+  color: #89C5CC;
+  font-weight: bold;
+  /* ideia da prioridade, h1 span vai aplicar no span */
+}
+
+section p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7D7987;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+section button {
+  
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+
+  line-height: auto;
+  background: #69B99D;
+  border: none;
+  padding: 14px 32px 15px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+
+  cursor: pointer;
+  /* aplica uma mãozinha no botão */
+
+}
+
+button:hover {
+  background: #4aa786;
+  /* usei o hover para fazer um contraste com a cor da caixa do botão */
+}
+
+
+footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  color: #000000;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  
+}
+
+footer a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
